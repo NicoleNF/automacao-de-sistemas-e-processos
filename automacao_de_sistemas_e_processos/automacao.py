@@ -4,7 +4,6 @@
 # pip install openpyxL 
 # pip install numpy 
 
-
 # Passo 1: Acessar o sistema da empresa
 
 # pyautogui.click -> clicar com o mouse
