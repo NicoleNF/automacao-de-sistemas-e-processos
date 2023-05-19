@@ -1,9 +1,3 @@
-# Para importar as bibliotecas use o comando pip install no seu terminal:
-# pip install pyautogui 
-# pip install pandas 
-# pip install openpyxL 
-# pip install numpy 
-
 # Passo 1: Acessar o sistema da empresa
 
 # pyautogui.click -> clicar com o mouse
@@ -12,28 +6,25 @@
 # pyautogui.hotkey -> apertar uma combinação de teclas (um atalho)
 
 
-import pyautogui 
+import pyautogui
+import selenium
 import pandas as pd
 import pyperclip
 import time
+from webdriver_manager.chrome import ChromeDriverManager
 
 pyautogui.hotkey("ctrl", "t")
 pyautogui.write("https://pages.hashtagtreinamentos.com/aula1-intensivao-sistema")
 pyautogui.press("enter")
 
-# tempo para o navegador carregar
-
 time.sleep(5)
 
 # Passo 2: Fazer login no sistema
 
-# clicar no espaço de login
 pyautogui.click(x=973, y=426)
 
-# escrever o login
 pyautogui.write("meu_login")
 
-# senha
 pyautogui.click(x=935, y=521)
 pyautogui.write("minha_senha")
 
@@ -50,7 +41,7 @@ time.sleep(3)
 # Passo 4: Calcular os indicadores
 
 tabela = pd.read_csv(r"C:\Users\joaol\Downloads\Compras.csv", sep=";")
-display(tabela)
+print("tabela")
 total_gasto = tabela["ValorFinal"].sum()
 quantidade = tabela["Quantifsfr"].sum()
 preco_medio = total_gasto / quantidade
@@ -95,7 +86,7 @@ Qualquer dúvida, é só falar.
 Att., Lira Python
 """
 
-pyperclip.copy(texto)
+pyperclip.copy(texto)meu_login
 pyautogui.hotkey("ctrl", "v")
 
 
