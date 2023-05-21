@@ -5,9 +5,10 @@
 <h2> 🛑 Pré-requisitos </h2>
 
 - [x] Linguagem Python 3
-- [x] IDE para desenvolvimento Python
+- [x] IDE para desenvolvimento Python, nesse caso foi utilizado o Jupyter Notebook com pacote Anaconda
 - [x] Fundamentos da sintaxe Python
-- [x] Bibliotecas pyautogui, pandas, openpyxL e numpy
+- [x] Bibliotecas pyautogui, selenium, pandas, openpyxL e numpy
+- [x] Arquivo webdriver, nesse caso chromedriver
 - [x] Um e-mail alternativo que possa ser utilizado em atividades
 
 <h2> ⛓️ Proposta </h2>
