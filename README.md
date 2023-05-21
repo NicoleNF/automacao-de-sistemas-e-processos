@@ -25,4 +25,4 @@
 
 Repositório criado para fins de estudo e projeto pessoal com a linguagem Python, através do evento online "Intensivo em Python" promovido pela plataforma Hashtag Programação.
 
-[Nicole Ferreira](https://www.linkedin.com/in/nicole-ferreira-929b841a0/).
+[Nicole Ferreira](https://www.linkedin.com/in/nicolenf/).
